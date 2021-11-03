@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(57, 151, 228);
+  text-align: center;
+  font-family: "Tourney", cursive;
+  font-weight: 300;
+}
+
+.result {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(140, 246, 250);
+  margin: 50px;
+  align-items: center;
+}
+
+.button {
+  background-color: rgb(140, 246, 250);
+  border-color: black;
+  height: 30px;
+  width: 90px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dice_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.dice {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+}
+
+.rows {
+  display: flex;
+  height: 33%;
+  width: 33%;
+  margin: 0%;
+  justify-content: space-between;
+}
+
+.dots {
+  background-color: white; /*punkte bleiben schwarz*/
+  border-radius: 50%;
+  margin: 15%;
+  height: 70%;
+  width: 70%;
+}
