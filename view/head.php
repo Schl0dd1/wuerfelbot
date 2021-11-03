@@ -1,14 +1,13 @@
 <body>
-  <h2>Throw the dice!</h2>
   <form action="index.php" method="post">
-  <div>
+  <div class="container">
     <input
-      class="button"
+      class="btn"
       type="button"
       id="button"
       name="button"
       onclick="throw_all_dices()"
-      value="throw all!"
+      value="Throw the Dice!"
       
     />
   </div>

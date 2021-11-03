@@ -1,7 +1,6 @@
 <?php //include "../script.js";?>
-<div id="loader"></div>
-      <!-- "hidden" class hides the content of that div, in this case the game itself-->
-<div class="result hidden" id="result"style="display:none;">
+
+<div class="result" id="result"style="display:none;">
   <h2>Du hast eine</h2>
 
  <div class="dice_wrapper">

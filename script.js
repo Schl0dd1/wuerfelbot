@@ -46,44 +46,48 @@
 
    
     num = Math.floor(Math.random() * (1,6)+1);
+    let color = "#238465";
     
     switch(num){
-      case 1: m.style.backgroundColor = "red"; 
+      case 1: m.style.backgroundColor = color; 
       break;
       case 2: 
-        or.style.backgroundColor = "red";
-        ul.style.backgroundColor = "red";  
+        or.style.backgroundColor = color;
+        ul.style.backgroundColor = color;  
       break;
       case 3: 
-        m.style.backgroundColor = "red"; 
-        or.style.backgroundColor = "red";
-        ul.style.backgroundColor = "red";
+        m.style.backgroundColor = color; 
+        or.style.backgroundColor = color;
+        ul.style.backgroundColor = color;
       break;
       case 4:
-        or.style.backgroundColor = "red";
-        ul.style.backgroundColor = "red";  
-        ol.style.backgroundColor = "red";
-        ur.style.backgroundColor = "red";  
+        or.style.backgroundColor = color;
+        ul.style.backgroundColor = color;  
+        ol.style.backgroundColor = color;
+        ur.style.backgroundColor = color;  
       break;
       case 5: 
-        m.style.backgroundColor = "red";
-        or.style.backgroundColor = "red";
-        ul.style.backgroundColor = "red";  
-        ol.style.backgroundColor = "red";
-        ur.style.backgroundColor = "red"; 
+        m.style.backgroundColor = color;
+        or.style.backgroundColor = color;
+        ul.style.backgroundColor = color;  
+        ol.style.backgroundColor = color;
+        ur.style.backgroundColor = color; 
       break;
       case 6:
-        or.style.backgroundColor = "red";
-        ul.style.backgroundColor = "red";  
-        ol.style.backgroundColor = "red";
-        ur.style.backgroundColor = "red"; 
-        ml.style.backgroundColor = "red";
-        mr.style.backgroundColor = "red";
+        or.style.backgroundColor = color;
+        ul.style.backgroundColor = color;  
+        ol.style.backgroundColor = color;
+        ur.style.backgroundColor = color; 
+        ml.style.backgroundColor = color;
+        mr.style.backgroundColor = color;
       break; 
   
    
     
     }
+
+    result.classList.remove('hidden');
+    loader.classList.add('hidden');
   }
 
 
