@@ -1,15 +1,15 @@
 
   //code-verlinkung zu script.js/script.php funktioniert nicht 
-  var dice_num = 5;
+  let dice_num = 5;
 
-  var num = 0;
-  var ol = document.getElementById('ol');
-  var or = document.getElementById('or');
-  var ml = document.getElementById('ml');
-  var m = document.getElementById('m');
-  var mr = document.getElementById('mr');
-  var ul = document.getElementById('ul');
-  var ur = document.getElementById('ur');
+  let num = 0;
+  let ol = document.getElementById('ol');
+  let or = document.getElementById('or');
+  let ml = document.getElementById('ml');
+  let m = document.getElementById('m');
+  let mr = document.getElementById('mr');
+  let ul = document.getElementById('ul');
+  let ur = document.getElementById('ur');
   let arr = new Array(ol,or,ml,m,mr,ul,ur);
   
   function throw_all_dices (){

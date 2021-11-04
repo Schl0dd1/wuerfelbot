@@ -64,6 +64,7 @@ body {
   width: 120px;
   height: 120px;
   margin: 6px;
+  box-shadow: rgb(0, 4, 8) 0px 20px 30px -10px;
 }
 
 .rows {
